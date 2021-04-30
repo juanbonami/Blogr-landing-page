@@ -7,6 +7,13 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- fonts -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | [Blogr]</title>
 
@@ -27,34 +34,43 @@
 
 <body>
   <header class="header">
-    <nav>
-      <img src="./images/logo.svg" alt="logo">
-      <a href="#">Product</a>
-      <div>
-        <a href="#">Overview</a>
-        <a href="#">Pricing</a>
-        <a href="#">Marketplace</a>
-        <a href="#">Features</a>
-        <a href="#">Integrations</a>
-      </div>
-      <a href="#">Company</a>
-      <div>
-        <a href="#">About</a>
-        <a href="#">Team</a>
-        <a href="#">Blog</a>
-        <a href="#">Careers</a>
-      </div>
-      <a href="#">Connect</a>
-      <div>
-        <a href="#">Contact</a>
-        <a href="#">Newsletter</a>
-        <a href="#">LinkedIn</a>
-      </div>
-      <div>
-        <a href="#">Login</a>
-        <div>
-          <a href="#">Sign Up</a>
+    <nav class="nav-bar">
+      <div class="main-nav">
+        <img id="logo" src="./images/logo.svg" alt="logo">
+        <div class="nav-bar-item">
+          <a href="#">Product</a>
+          <img class="arrow-icon" src="./images/icon-arrow-dark.svg" alt="arrow">
         </div>
+        <div class="dropdwn-content">
+          <a href="#">Overview</a>
+          <a href="#">Pricing</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Features</a>
+          <a href="#">Integrations</a>
+        </div>
+        <div class="nav-bar-item">
+          <a href="#">Company</a>
+          <img class="arrow-icon" src="./images/icon-arrow-dark.svg" alt="arrow">
+        </div>
+        <div class="dropdwn-content">
+          <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="nav-bar-item">
+          <a href="#">Connect</a>
+          <img class="arrow-icon" src="./images/icon-arrow-dark.svg" alt="arrow">
+        </div>
+        <div class="dropdwn-content">
+          <a href="#">Contact</a>
+          <a href="#">Newsletter</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div class="login-signup">
+        <a href="#">Login</a>
+        <a id="signup-btn" href="#">Sign Up</a>
       </div>
     </nav>
 
